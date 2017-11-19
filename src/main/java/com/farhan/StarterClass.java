@@ -31,8 +31,8 @@ public class StarterClass {
 		// open URL in browser
 		webDriver.get("http://www.facebook.com");
 		try {
-			webDriver.findElement(By.id("email")).sendKeys("dawayiam_03@yahoo.com");
-			webDriver.findElement(By.id("pass")).sendKeys("thearrivals3");
+			webDriver.findElement(By.id("email")).sendKeys("email");
+			webDriver.findElement(By.id("pass")).sendKeys("pass");
 			webDriver.findElement(By.xpath("//input[@type='submit']")).click();
 			Thread.sleep(2000);
 			webDriver.findElement(By.xpath("//*[contains(@title, 'Profile')]")).click();
